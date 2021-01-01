@@ -6,7 +6,18 @@
 
     <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
 
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alike">
+    <link rel="stylesheet" href="fonts/fontawesome-all.min.css">
+    <link rel="stylesheet" href="css/Community-ChatComments.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="css/Login-Form-Clean.css">
+    <link rel="stylesheet" href="css/Login-Form-Dark.css">
+    <link rel="stylesheet" href="css/Pretty-Search-Form.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" type="text/css" href="css/style2.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
@@ -29,7 +40,12 @@
 
 
 <style type="text/css">
-
+.scrollspy-exemplo {
+    position: relative;
+    height: 80%;
+    margin-top: .5rem;
+    overflow: auto;
+}
 
 
 .preto 
@@ -182,66 +198,72 @@
 <p></p>
 
         </div>
-        <div class="videos_sites">
-        <div class="container-fluid quem-somos text-center margin">
+        <div class="container-fluid quem-somos text-center margin" style="background-color: #00008B;">
+<p></p>
+                <div class="container" style="background: #00408B;">
+                                         <p></p>
 
+                     <div class="container" >
                     <div class="container-fluid quem-somos text-center margin">
+                     <p></p>
 
-<h1 class="fonte_branca">Projetos</h1>
+<h1 class="fonte_branca">Principais vídeos</h3>
+                    </div>
+                   
+
+                    <div class="row" style="background-color: #00408BB;">
+                        <div class="col d-flex justify-content-center align-items-center">
+                            <div class="carousel slide" data-ride="carousel" id="carousel-1">
+                                <div class="carousel-inner" role="listbox">
+                                    <div class="carousel-item active">  <video src="img/introdução.mp4" class="video1" controls > </video>
+                                            <h5  class="fonte_branca">Breve resumo de Naner e BIOHELP</h5>
+</div>
+                                    <div class="carousel-item">        <video src="img/biohelp.webm" class="video2" controls > </video>
+    <h6 class="fonte_branca" >Projeto com um intuito de ajudar as pessoas na área de biologia durante a pandemia.</h6>
+<h6 class="fonte_branca" > Veja a apresentação de Pedro Vinicius na jornada da UNIBRA</h6>
+                                    </div>
+                                    <div class="carousel-item"> <video src="img/naner.mp4" class="video3" controls > </video>
+  <h6  class="fonte_branca">Projeto com um intuito de desenvolver as competências necessárias para um trabalho em Django.</h6>
+<h6   class="fonte_branca"> Veja o jogo C:</h6>
+                                    </div>
+                                </div>
+                                <div><a class="carousel-control-prev" href="#carousel-1" role="button" data-slide="prev"><span class="carousel-control-prev-icon"></span><span class="sr-only">Previous</span></a><a class="carousel-control-next" href="#carousel-1"
+                                        role="button" data-slide="next"><span class="carousel-control-next-icon"></span><span class="sr-only">Next</span></a></div>
+                                <ol class="carousel-indicators">
+                                    <li data-target="#carousel-1" data-slide-to="0" class="active"></li>
+                                    <li data-target="#carousel-1" data-slide-to="1"></li>
+                                    <li data-target="#carousel-1" data-slide-to="2"></li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h1 class="fonte_branca">Projetos</h1>
+                    <div class="row" style="margin-top: 10px;">
+
+                        <div data-toggle="modal" data-target="#naner" class="col d-flex d-sm-flex d-md-flex d-lg-flex d-xl-flex justify-content-center align-items-center justify-content-sm-center align-items-sm-center justify-content-md-center align-items-md-center justify-content-lg-center align-items-lg-center justify-content-xl-center align-items-xl-center"
+                            data-bs-hover-animate="pulse" style="height: 180px;margin: 10px;background-color: #00008B;border-radius: 20px;width: 300px;min-width: 180px;"> <img src="img/naner.png" height="150" width="150" style="width: 220px;min-width: 100px;">
+                        </div>
+
+                        <div data-toggle="modal" data-target="#biohelp" class="col d-flex d-sm-flex d-md-flex d-lg-flex d-xl-flex justify-content-center align-items-center justify-content-sm-center align-items-sm-center justify-content-md-center align-items-md-center justify-content-lg-center align-items-lg-center justify-content-xl-center align-items-xl-center"
+                            data-bs-hover-animate="pulse" style="height: 180px;border-radius: 20px;margin: 10px;background-color: #00008B;width: 300px;min-width: 180px;"><img src="img/biohelp.bmp" height="50" width="150"  style="width: 220px;min-width: 100px;"></div>
+                        <div data-toggle="modal" data-target="#nanermobile" class="col d-flex d-sm-flex d-md-flex d-lg-flex d-xl-flex justify-content-center align-items-center justify-content-sm-center align-items-sm-center justify-content-md-center align-items-md-center justify-content-lg-center align-items-lg-center justify-content-xl-center align-items-xl-center"
+                             data-bs-hover-animate="pulse" style="height: 180px;border-radius: 20px;margin: 10px;background-color: #00008B;width: 300px;min-width: 180px;"><img src="img/nanermobile.png" height="150" width="150"  style="width: 220px;min-width: 100px;"></div>
+                    </div>
+                    <div class="row">
+                        <div data-toggle="modal" data-target="#good" class="col d-flex d-sm-flex d-md-flex d-lg-flex d-xl-flex justify-content-center align-items-center justify-content-sm-center align-items-sm-center justify-content-md-center align-items-md-center justify-content-lg-center align-items-lg-center justify-content-xl-center align-items-xl-center"
+                            data-bs-hover-animate="pulse" style="height: 180px;margin: 10px;background-color: #00008B;border-radius: 20px;width: 300px;min-width: 180px;"><img src="img/good_logo.png" height="150" width="150"   style="width: 220px;min-width: 100px;"></div>
+                        <div data-toggle="modal" data-target="#controle_combustivel" class="col d-flex d-sm-flex d-md-flex d-lg-flex d-xl-flex justify-content-center align-items-center justify-content-sm-center align-items-sm-center justify-content-md-center align-items-md-center justify-content-lg-center align-items-lg-center justify-content-xl-center align-items-xl-center"
+                            data-bs-hover-animate="pulse" style="height: 180px;border-radius: 20px;margin: 10px;background-color: #00008B;width: 300px;min-width: 180px;"><img src="img/NanerControledecombustivel.png"  height="150" width="150"  style="width: 220px;min-width: 100px;"></div>
+                        <div data-toggle="modal" data-target="#controle_estoque" class="col d-flex d-sm-flex d-md-flex d-lg-flex d-xl-flex justify-content-center align-items-center justify-content-sm-center align-items-sm-center justify-content-md-center align-items-md-center justify-content-lg-center align-items-lg-center justify-content-xl-center align-items-xl-center"
+                            data-bs-hover-animate="pulse" style="height: 180px;border-radius: 20px;margin: 10px;background-color:#00008B;width: 300px;min-width: 180px;"><img src="img/NanerControledeestoque.png"  height="150" width="150"  style="width: 220px;min-width: 100px;"></div>
                     </div>
 
+                </div>
+            <p></p>
+            </div>
 
 
-<div class="card-group">
-
-
-  <div class="card">
-
-
-    <div class="card-body">
-      <h5 class="card-title"><b>Explicações dos sites</b></h5>
-        <video src="img/introdução.mp4" class="video1" controls > </video>
-        <h5>Breve resumo dos outros dois projetos</h5>
-
-      <p class="card-text"><small class="text-muted"></small></p>
-	  </div>
-    </div>
-
-
-  <div class="card">
-
-
-    <div class="card-body">
-      <h5 class="card-title"><b>BIOHELP</b></h5>
-<div class="container-fluid">
-
-
-        <video src="img/biohelp.webm" class="video2" controls > </video>
-        <h6 >Projeto com um intuito de ajudar as pessoas na área de biologia durante a pandemia.</h6>
-<h6 > Veja a apresentação de Pedro Vinicius na jornada da UNIBRA</h6>
-	  </div>
-  </div>
-
-</div>
-  <div class="card">
-
-
-
-    <div class="card-body">
-      <h5 class="card-title"> <b>Naner</b></h5>
-<video src="img/naner.mp4" class="video3" controls > </video>
-        <h6 >Projeto com um intuito de desenvolver as competências necessárias para um trabalho em Django.</h6>
-<h6> Veja o jogo C:</h6>
-
-
-      <p class="card-text"><small class="text-muted"></small></p>
-	  </div>
-    </div>
-</div>
-
-
-</div>
-        </div>
 
     </section>
 
@@ -264,7 +286,8 @@ a
 
             </p>
             <p class="fonte_branca">Email: lucasrenaa1996@gmail.com</p>
-            <p class="fonte_branca">Telefone: (81) 991560686</p>
+            <p class="fonte_branca">Telefone: (81) 989504384</p>
+            <p class="fonte_branca"><a href="https://api.whatsapp.com/send?phone=5581989504384&text=Ol%C3%A1%20LUCASRENAA">Clique aqui para me enviar uma mensagem no Whatsapp  <a/></p>
 
 
             <p class="fonte_branca" id="fim">Todos os direitos reservados</p>
@@ -285,6 +308,210 @@ a
 
 
     </section>
+
+  <script src="js/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/bs-init.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.js"></script>
+    <script src="js/theme.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <div class="modal fade" id="naner" tabindex="-1" role="dialog" aria-labelledby="Titulonaner" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="Titulonaner">Naner</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+
+          <video src="img/naner.mp4" class="video3" controls > </video>
+          <p></p>
+Projeto com um intuito de desenvolver as competências necessárias para um trabalho em Django.
+
+<p></p>
+O naner é uma simulação de um jogo de apostas, e foi o meu primeiro projeto para web, onde aprendi trabalhar com autorizações, trabalhar com datas, com diversas outras validações,
+          se as milhares são iguais, acrescentar dados
+          em um banco de dados, e por ai vai. Sempre que dá, sempre dou uma volta lá e atualizo alguma coisa :)
+
+
+
+
+      </div>
+      <div class="modal-footer"><a href="https://naner.herokuapp.com">Veja o jogo C:</a>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+  <div class="modal fade" id="biohelp" tabindex="-1" role="dialog" aria-labelledby="Titulo_biohelp" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="Titulo_biohelp">Biohelp</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+
+<video src="img/biohelp.webm" class="video2" controls > </video>
+    <h6  >Projeto com um intuito de ajudar as pessoas na área de biologia durante a pandemia.</h6>
+<h6  > Veja a apresentação de Pedro Vinicius na jornada da UNIBRA</h6>      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+  <div class="modal fade" id="nanermobile" tabindex="-1" role="dialog" aria-labelledby="Titulo_nanermobile" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="Titulo_nanermobile">Naner Mobile</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body"><div class="container-fluid quem-somos text-center margin">
+
+<img width="200" height="250" src="img/nanermobile.jpg">
+      </div>
+          <p></p>
+Naner mobile é a versão para android do Naner(Estou fazendo algumas correções e vou publicar na playstore novamente)
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+  <div class="modal fade" id="good" tabindex="-1" role="dialog" aria-labelledby="Titulo_good" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="Titulo_good">Good animes</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+<img width="450" height="500" src="img/good.png">
+      <p></p>
+
+Um projeto feito com uns amigos, fiquei responsável pelo backend e no futuro terá um site de apresentação e iremos fazer
+          mais sites juntos.
+      </div>
+      <div class="modal-footer">
+          <a href="https://nexanimes.herokuapp.com">Veja o site C:</a>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+  <div class="modal fade" id="controle_combustivel" tabindex="-1" role="dialog" aria-labelledby="Titulo_controle_combustivel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="Titulo_controle_combustivel">Controle de combustivel</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+
+<img width="450" height="500" src="img/controle_combustivel.png">
+<p></p>
+Ainda estou atualizando a questão da geração de relatorios, mas já dá para adicionar motoristas, 
+adicionar placas, modelos de caminhões, e sai relatorio do motorista/placa/modelo do km/l, distancia 
+percorrida e os litros gastos, já está quase pronto para adicionar para colocar litros no carro(ah e ainda falta
+um logo para o sistema)...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+  <div class="modal fade" id="controle_estoque" tabindex="-1" role="dialog" aria-labelledby="Titulo_controle_estoque" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="Titulo_controle_estoque">Controle de estoque</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+
+<img width="450" height="500" src="img/controle_estoque.png">
+<p>
+  Controle de estoque baseado no método PEPS(Primeiro a Entrar, Primeiro a Sair), o sistema foi feito pensando
+  em pegar produtos primarios(como leite,polpa da fruta e etc) e refazer em produtos secundarios e vender, é
+  calculado o lucro das vendas, as despesas e etc(Ainda falta um logo para o sistema).
+
+</p>
+<p></p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
 
 </body>
 </html>
